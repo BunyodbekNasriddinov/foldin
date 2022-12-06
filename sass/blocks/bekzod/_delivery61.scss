@@ -1,0 +1,46 @@
+.site-header {
+    padding-top: 20px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.header__navbar {
+    flex-grow: 1;
+
+}
+
+.header__list {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #E6EBEF;
+}
+
+.header__item {
+    flex-grow: 1;
+    border: 2px solid transparent;
+}
+
+.header__item:hover {
+    border: 2px solid #01305E;
+    transition: all 0.7s ease-in;
+}
+
+.header__link {
+    padding: 9px 0;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.5;
+    flex-grow: 1;
+}
+
+.header__link:hover {
+    opacity: 1;
+    transition: all 0.7s ease-in;
+}
