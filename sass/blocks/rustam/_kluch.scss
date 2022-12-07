@@ -1,0 +1,130 @@
+.kluch {
+}
+.container {
+}
+.kuch__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 40px; 
+}
+.kluch__let {
+   width: 740px;
+  
+}
+.let {
+  
+}
+.kluch__button {
+    background-image: url('/7,8,9-page img/kluch.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    // padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.kluch__content{
+    display: inline-block;
+  padding:220px 20px 88px 20px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+.let__text { 
+    margin: 0 20px;
+    padding: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    /* or 113% */
+    
+    
+    /* #EEF1F4 */
+    
+    color: #F1F5F8;
+margin-bottom: 30px;    
+}
+.let__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.produk {
+    background-image: url('/7,8,9-page img/produk.jpg');
+    background-repeat: no-repeat;
+    background-size:100%; 
+    width: 100%;
+    max-width: 350px;
+    height: 685px;
+
+}
+.produk__text {
+    margin: 583px 30px 30px;
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+
+
+/* #EEF1F4 */
+
+color: #F1F5F8;
+}
+.effekt {
+    // margin-left: 40px;
+}
+.effekt__nove {
+    width: 100%;
+    max-width: 350px;
+    height: 320px;
+   
+    margin-bottom: 41px;
+  
+    background-image: url('/7,8,9-page img/effekt-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+   border: 2px solid transparent;
+}
+.effekt__text {
+    margin: 200px 30px 30px;
+
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+
+
+/* #EEF1F4 */
+
+color: #F1F5F8;
+}
+.norma {
+    width: 100%;
+    max-width: 350px;
+    height: 320px;
+  
+    background-image: url('/7,8,9-page img/norma-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    border: 2px solid transparent;
+   
+}
+.norma__text {
+   padding: 220px 30px 30px;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   /* or 120% */
+   
+   
+   /* #EEF1F4 */
+   
+   color: #F1F5F8;
+}
