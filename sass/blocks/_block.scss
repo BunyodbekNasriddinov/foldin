@@ -8,10 +8,25 @@
 
 @import "footer";
 
+//*******************
+//***   BUTTONS   ***
+//*******************
+@import "buttons";
+
 //**********************
 //***   ABOUT PAGE   ***
 //**********************
 @import "about/about";
+
+//*************************
+//***   PROJECTS PAGE   ***
+//*************************
+@import "projects/projects";
+
+//*********************
+//***   JOBS PAGE   ***
+//*********************
+@import "jobs/jobs";
 
 //************************
 //***   CONTACT PAGE   ***
@@ -20,6 +35,8 @@
 ////////////////////////////
 /// bekzod//////
 @import "bekzod/delivery61";
+
 /////rustam/////
 @import"rustam/kluch";
 @import"rustam/foldin";
+
