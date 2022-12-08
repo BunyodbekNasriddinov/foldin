@@ -716,50 +716,6 @@ img {
   padding: 0;
 }
 
-.jobs-article {
-  padding: 100px 0 160px;
-}
-
-.jobs-article__inner {
-  width: 100%;
-  padding: 100px 0;
-  background-image: url("../../../images/jobs-article-bgi.jpg");
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
-
-.jobs-article__content {
-  padding: 50px;
-  width: 100%;
-  max-width: 882px;
-  background: rgba(241, 245, 248, 0.8);
-  backdrop-filter: blur(15px);
-}
-
-.jobs-article__content span {
-  font-size: 16px;
-  line-height: 20px;
-  color: #b8884b;
-}
-
-.jobs-article__content h2 {
-  margin: 10px 0 0;
-  padding: 0;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 65px;
-  color: #252d35;
-}
-
-.jobs-article__content p {
-  margin: 20px 0 0;
-  padding: 0;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #252d35;
-}
-
 @media only screen and (max-width: 576px) {
   .jobs-hero__desc {
     margin: 30px 0 40px;
