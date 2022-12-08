@@ -1,0 +1,235 @@
+@import "../buttons";
+
+.projects-hero {
+  padding: 40px 0 110px;
+}
+
+.projects-hero__title-inner {
+  width: 100%;
+  max-width: 968px;
+  margin: 0 auto;
+}
+
+.projects-hero__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 75px;
+  text-align: center;
+  color: #b8884b;
+}
+
+.projects-hero__span {
+  color: #252d35;
+}
+
+.projects-hero__btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.projects-hero__filter-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 30px;
+  width: 100%;
+  max-width: 155px;
+  border: 2px solid #1c242c;
+}
+
+.projects-hero__filter-btn::after {
+  content: "";
+  width: 18px;
+  height: 16px;
+  margin-left: 10px;
+  background-image: url("../..//../images/filter-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.btn-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 4px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #e7e8e9;
+}
+
+.btn-nav button {
+  border: none;
+}
+
+.projects-hero-video-btn {
+  background-color: #e7e8e9;
+  color: #878c90;
+}
+
+.active-btn {
+  background: linear-gradient(86.93deg, #b8884b 0%, #cc9c55 100%);
+  color: #f1f5f8;
+}
+
+.projects-hero__select {
+  padding: 15px 30px;
+  border: 2px solid #1c242c;
+  width: 100%;
+  max-width: 180px;
+
+  & option {
+    padding: 15px 30px;
+    color: #878c90;
+  }
+}
+
+.projects-hero__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.projects-hero__card {
+  position: relative;
+}
+
+.projects-hero__card + .projects-hero__card + .projects-hero__card {
+  margin-top: 60px;
+}
+
+.projects-hero__text-inner {
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  padding: 15px;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.projects-hero__dot {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 10px;
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.projects-hero-video-btn {
+  display: block;
+  width: 100%;
+  max-width: 248px;
+  margin: 0 auto;
+  border: 2px solid #b8884b;
+  color: #b8884b;
+}
+
+.projects-hero__view-btn {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 25px;
+  width: 100%;
+  max-width: 300px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b8884b;
+  border: 2px solid #b8884b;
+}
+
+.projects-hero__view-btn p {
+  position: absolute;
+  top: 13px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-hero__view-btn p::after {
+  content: "";
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../..//../images/vector.svg");
+  background-repeat: no-repeat;
+}
+
+.projects-hero__view-btn span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background-color: #f1e7db;
+}
+
+//******************//
+//***   MOBILE   ***//
+//******************//
+
+@media only screen and (max-width: 576px) {
+  .projects-hero__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .projects-hero__btns {
+    display: grid;
+    grid-template-columns: 131px 136px 153  px;
+    grid-template-rows: repeat(2, 50px);
+    row-gap: 20px;
+  }
+
+  .projects-hero__filter-btn {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .btn-nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 420px;
+  }
+
+  .projects-hero__select {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    // margin-left: auto;
+  }
+
+  .projects-hero__cards {
+    flex-wrap: wrap;
+  }
+
+  .projects-hero__card img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+  }
+
+  .projects-hero__card + .projects-hero__card {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+}
