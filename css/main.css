@@ -1071,6 +1071,57 @@ img {
   padding: 0;
 }
 
+@media only screen and (max-width: 576px) {
+  .jobs-hero__desc {
+    margin: 30px 0 40px;
+  }
+  .jobs-hero__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .jobs-hero__desc p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .jobs-hero__desc a {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .navbar-job__list {
+    flex-wrap: wrap;
+  }
+  .navbar-job__link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .jobs-hero__content {
+    flex-wrap: wrap;
+  }
+  .jobs-hero__list + .jobs-hero__list {
+    margin-top: 40px;
+  }
+  .jobs-hero__item {
+    max-width: 100%;
+  }
+  .jobs-hero__item h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .jobs-hero__item p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .jobs-hero__title {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .jobs-hero__desc a {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
 .site-header {
   padding-top: 20px;
 }
