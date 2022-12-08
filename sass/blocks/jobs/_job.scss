@@ -1,0 +1,89 @@
+//********************
+//***   JOBS JOB   ***
+//********************
+
+.jobs-job {
+  padding: 0 0 160px;
+}
+
+.jobs-job__title {
+  margin: 160px 0 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 75px;
+  text-align: center;
+  color: #252d35;
+}
+
+.jobs-job__title span {
+  color: #b8884b;
+}
+
+.jobs-job__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 40px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.jobs-job__item {
+  padding: 30px;
+  width: 100%;
+  max-width: 720px;
+  background-color: #f1f5f8;
+}
+
+.jobs-job__item + .jobs-job__item + .jobs-job__item {
+  margin-top: 40px;
+}
+
+.jobs-job__name {
+  margin: 20px 0 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  color: #252d35;
+}
+
+.jobs-job__item span {
+  display: block;
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #b8884b;
+}
+
+.jobs-job__item strong {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #252d35;
+}
+
+.jobs-job__sublist {
+  margin: 10px 0 0;
+  list-style-type: disc;
+}
+
+.jobs-job__subitem {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252d35;
+}
+
+.jobs-job__show-btn {
+  display: block;
+  margin: 10px 0 0;
+  border: none;
+  background: none;
+}
+
+.navbar-job {
+  border-top: 1px solid #d2d4d6;
+}
