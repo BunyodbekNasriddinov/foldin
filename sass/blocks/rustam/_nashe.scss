@@ -1,0 +1,42 @@
+.nashe {
+}
+.nashe__inner {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  left: -930px;
+  right:-930px ;
+  position: calc(50% - 930px);
+}
+.nashe__content1 {
+
+}
+.nashe__textcon{
+    max-width: 570px;
+    height: 240px;
+    padding: 45px 90px 45px 45px;
+    background: #B8884B;
+    margin-bottom: 40px;
+}
+.nashe__text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 75px;
+/* or 107% */
+
+align-items: center;
+/* #EEF1F4 */
+
+color: #F1F5F8;
+
+}
+.nashe__content2 {
+   margin-top: 20px;
+margin-bottom: 40px;
+}
